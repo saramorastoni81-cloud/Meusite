@@ -1,0 +1,14 @@
+THE WEIRD SHIP ARCHIVE - VERSAO 3
+Abra a pasta no VS Code e rode index.html com Live Server.
+
+O QUE FUNCIONA:
+- Menu leva para as páginas MLP, Furry, Sonic, Weird Ships, Gallery e About.
+- Clique nas imagens para ampliar; ESC ou CLOSE fecha a visualização.
+- Guestbook salva até 50 mensagens neste navegador/computador (localStorage).
+- O botão SECRET mostra/esconde a mensagem.
+- RANDOM no Webring abre uma seção aleatória.
+
+IMPORTANTE:
+- O Guestbook ainda não é compartilhado entre visitantes; para isso será necessário um banco de dados/serviço online.
+- O contador é cenográfico e aleatório, não mede visitas reais.
+- As páginas secundárias são estruturas iniciais para você preencher com conteúdo depois.
