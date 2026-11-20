@@ -69,3 +69,8 @@ button:active { transform: translateY(1px); }
 .orelha-main-photo{display:block;width:min(100%,420px);max-height:420px;object-fit:contain;margin:14px auto;border:9px ridge #ff35d7;box-shadow:0 0 16px #ff00c8}
 .orelha-sticker{display:inline-block;background:#08000e;color:#39ff14;padding:8px 12px;border:4px ridge #ff0;font:bold 15px 'Courier New';transform:rotate(-2deg)}
 @media(max-width:760px){.info-grid,.terms-list{grid-template-columns:1fr}.orelha-masthead img{width:95px;height:95px}}
+
+
+/* GUESTBOOK STATUS — added without changing the original theme */
+#guestbook-status { margin: 8px 0; color: #39ff14; background: #180027; border: 2px dotted #ff35d7; padding: 6px; font-weight: bold; overflow-wrap: anywhere; }
+#guestbook-form button:disabled { opacity: .65; cursor: wait; }

@@ -1,0 +1,18 @@
+NOSTALGIA DEBUTE — CONFIGURAR O GUESTBOOK COMPARTILHADO
+
+O guestbook agora está preparado para usar Supabase. Falta criar seu projeto e colocar duas informações públicas de conexão.
+
+1) Entre em https://supabase.com/ e crie uma conta/projeto.
+2) No painel do projeto, abra SQL Editor > New query.
+3) Abra o arquivo supabase-guestbook.sql deste site, copie todo o conteúdo, cole no SQL Editor e clique em Run. Isso cria a tabela e as permissões de leitura/assinatura.
+4) No painel do Supabase, abra Project Settings > API (ou Connect/API Keys, conforme a interface). Copie a Project URL e a chave anon/public (também pode aparecer como publishable key).
+5) Abra supabase-config.js e substitua os dois textos COLE_... pelos valores copiados. Exemplo de formato:
+   url: 'https://SEU-PROJETO.supabase.co',
+   anonKey: 'SUA_CHAVE_PUBLICA'
+6) Salve o arquivo e envie a versão atualizada do site ao Netlify.
+
+IMPORTANTE:
+- Use somente a chave anon/public ou publishable. NUNCA coloque service_role ou secret key no site.
+- As mensagens do guestbook serão públicas para qualquer visitante. Não peça nem publique dados pessoais sensíveis.
+- Esta configuração permite que qualquer pessoa leia e envie mensagens. Como o formulário é público, pode receber spam; se isso acontecer, será necessário adicionar moderação/limite anti-spam.
+- O site antigo continua publicado até você enviar a versão atualizada.
